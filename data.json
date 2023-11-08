@@ -1,0 +1,12 @@
+[
+    {
+        "judul":"Belajar HTML", 
+        "gambar":"gambar-1.png", 
+        "pdf":"modul-1.pdf"
+    },
+    {
+        "judul":"Belajar CSS", 
+        "gambar":"gambar-2.png", 
+        "pdf":"modul-2.pdf"
+    }
+]

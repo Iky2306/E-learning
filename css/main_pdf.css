@@ -1,0 +1,25 @@
+#pdf{
+
+    text-align: center;
+
+}
+
+#pdf > h2 {
+
+    border: 2px solid black;
+
+    padding: 5px;
+    margin: 10px;
+
+    height: calc(10vh - 20px);
+
+    box-sizing: border-box;
+
+}
+
+#pdf > object {
+
+    width: calc(100% - 20px);
+    height: 90vh;
+
+}
