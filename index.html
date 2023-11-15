@@ -1,12 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Learning</title>
     <link rel="stylesheet" href="css/html.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section_pilihan.css">
     <link rel="stylesheet" href="css/section_data.css">
     <link rel="stylesheet" href="css/main_pdf.css">
     <link rel="stylesheet" href="css/button_up.css">
 
 </head>
+<body>
 
 <header class="title">
     <h1>E - Learning</h1>
@@ -14,6 +22,9 @@
     </svg>
 </header>
 
+<div style="display: none;" id="penutup_pilihan" onclick="batal()"></div>
+<section style="display: none;" id="pilihan"></section>
+<script src="js/pilihan.js"></script>
 
 <section id="data"></section>
 <script src="js/data.js"></script>
@@ -23,3 +34,6 @@
 
 <button id="up">NAIK</button>
 <script src="js/button.js"></script>
+
+</body>
+</html>

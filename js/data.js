@@ -8,7 +8,7 @@ function ambil_data() {
 
         for(var a = 0; a < data.length; a++){
 
-            tampilkan.innerHTML += "<a download href='pdf/" + data[a].pdf + "' onclick=\"tampilkan_pdf('pdf/" + data[a].pdf + "','" + data[a].judul + "')\" class='data_' href='#pdf'>"
+            tampilkan.innerHTML += "<a onclick=\"tampilkan_pilihan('pdf/" + data[a].pdf + "','" + data[a].judul + "')\" class='data_' href='javascript:void(0)''>"
             + "<img class='data_gambar' src='gambar/" + data[a].gambar + "'>"
             + "<p class='data_nama'>"
             + data[a].judul

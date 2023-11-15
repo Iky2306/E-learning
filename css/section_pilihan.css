@@ -1,0 +1,57 @@
+#pilihan{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    width: 50%;
+    max-width: 300px;
+
+    text-align: center;
+
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+
+    transform: translate(-50%, -50%);
+
+}
+
+#pilihan p{
+
+    text-align: left;
+
+}
+
+#pilihan button, #pilihan a{
+
+    cursor: pointer;
+
+    padding: 10px 30px;
+    margin: 10px;
+
+    background-color: lawngreen;
+    border: 2px solid black;
+    border-radius: 15px;
+
+    font-size: 100%;
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#penutup_pilihan{
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: grey;
+
+    opacity: 0.5;
+
+}
