@@ -1,12 +1,7 @@
 [
     {
-        "judul":"Belajar HTML", 
-        "gambar":"gambar-1.png", 
-        "pdf":"modul-1.pdf"
-    },
-    {
-        "judul":"Belajar CSS", 
-        "gambar":"gambar-2.png", 
-        "pdf":"modul-2.pdf"
+        "judul":"Belajar PHP CI - Rental Mobil", 
+        "gambar":"TECHBOOST_WORKSHOP.png", 
+        "pdf":"TECHBOOST_WORKSHOP.pdf"
     }
 ]
